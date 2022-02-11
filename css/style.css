@@ -1,0 +1,209 @@
+/* Обгуляющий стиль */
+@import "null.css";
+/* ===================================== */
+/* Подключение шрифтов */
+@import "fonts.css";
+/* ===================================== */
+/* Оболочка */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ===================================== */
+
+.logo{
+	display: block;
+	max-width: 200px;
+	margin: 30px auto;
+}
+.title {
+	font-family: "JosefaRounded", sans-serif;
+	font-size: 40px;
+	font-weight: 900;
+	color:#1b3a57;
+	text-align: center;
+	margin: 0px 0px 30px 0px;
+	letter-spacing: 1.5px;
+	border-top: 4px solid #6267d9;
+	border-bottom: 4px solid #6267d9;
+	background-color: #c1dcf5;
+}
+.text {
+	font-family: "Comfortaa", sans-serif;
+	font-size: 28px;
+	color:#1A4D1A;
+	margin: 0px 0px 20px 0px;
+	text-indent: 10px;
+	text-align: center;
+	border-top: 4px solid #6267d9;
+	border-bottom: 4px solid #6267d9;
+	background-color: #c8DFC8;
+}
+.pink {
+	display: block;
+	max-width: 800px;
+	margin: 0px auto;
+	border: 2px dotted #6267d9;
+	box-shadow: -10px -10px 5px 5px #6267d9, 10px 10px 5px 5px #6267d9;
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	-ms-border-radius: 50px;
+	-o-border-radius: 50px;
+}
+.navtitle {
+	font-family: "JosefaRounded", sans-serif;
+	color:#1b3a57;
+	border: 3px dashed #6267d9;
+	background-color: #c1dcf5;
+	font-size: 24px;
+	max-width: 400px;
+	text-align: center;
+	margin: 0px 0px 10px 60px;
+	border-radius: 20px;
+}
+nav ul {
+	font-family: "Comfortaa", sans-serif;
+	color:#1b3a57;
+	font-size: 18px;
+	margin: 0px 0px 0px 60px;
+	max-width: 400px;
+	max-height: 150px;
+	overflow: scroll;
+	border: 3px dotted #6267d9;
+	background-color: #c1dcf5;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+}
+nav li {
+	text-decoration: underline;
+}
+main h3 {
+	font-family: "JosefaRounded", sans-serif;
+	box-shadow: 8px 8px 8px  8px black;
+	font-size: 28px;
+	margin: 20px 0px 20px 20px;
+	border: 4px solid #6267d9;
+	text-align: center;
+	max-width: 700px;
+	color:#b5d5dc;
+	opacity: 0.8;
+	background-color: #13353d;
+	border-radius: 4px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+}
+main p {
+	font-family: "Comfortaa", sans-serif;
+	font-size: 18px;
+	line-height: 1.3;
+	text-indent: 15px;
+	max-width: 1800px;
+	margin: 0 auto;
+	color:#1b3a57;
+}
+.text1 {
+	outline: 2px solid #6267d9;
+	border-radius: 3px;
+	background-color: #c1dcf5;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+}
+.text2 {
+	outline: 4px dotted #6267d9;
+	background-color: #c1dcf5;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+}
+.text3 {
+	outline: 2px dashed #6267d9;
+	background-color: #c1dcf5;
+	border-radius: 4px;
+}
+.train {
+	display: block;
+	max-width: 800px;
+	margin: 10px 0px 0px 30px;
+	border: 3px solid #6267d9;
+	box-shadow: 10px 10px 5px 5px #6267d9;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+.text4 {
+	border: 4px solid #6267d9;
+	border-radius: 20px;
+	opacity: 0.6;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+}
+.text5 {
+	border: 3px dashed #6267d9;
+	border-radius: 15px 15px 3px 3px;
+	-webkit-border-radius: 15px 15px 3px 3px;
+	-moz-border-radius: 15px 15px 3px 3px;
+	-ms-border-radius: 15px 15px 3px 3px;
+	-o-border-radius: 15px 15px 3px 3px;
+	background-color: #c1dcf5;
+	opacity: 0.8;
+}
+.text6 {
+	border: 3px dotted #6267d9;
+	opacity: 0.5;
+	box-shadow: inset 5px 3px 5px 3px #6267d9;
+}
+.text7 {
+	border: 3px double #6267d9;
+	box-shadow: inset 5px 5px 7px 7px#6267d9;
+}
+.woman {
+	margin: 20px 0px 0px 30px;
+	max-width: 500px;
+	outline: 10px double #6267d9;
+	border-radius:3% 6% 7% 25%;
+	-webkit-border-radius:3% 6% 7% 25%;
+	-moz-border-radius:3% 6% 7% 25%;
+	-ms-border-radius:3% 6% 7% 25%;
+	-o-border-radius:3% 6% 7% 25%;
+}
+.text8 {
+	outline: 5px solid #6267d9;
+	border-radius:3% 6% 7% 4%;
+	-webkit-border-radius:3% 6% 7% 4%;
+	-moz-border-radius:3% 6% 7% 4%;
+	-ms-border-radius:3% 6% 7% 4%;
+	-o-border-radius:3% 6% 7% 4%;
+}
+.text9 {
+	outline: 5px dotted #6267d9;
+	opacity: 0.6;
+}
+.text10 {
+	outline: 5px dashed #6267d9;
+	visibility: hidden;
+}
+ul {
+   margin: 10px 0px 0px 0px;
+	font-family: "JosefaRounded", sans-serif;
+	font-size: 20px;
+	text-align: center;
+	line-height: 1.3;
+}
+.end {
+	font-family: "Comfortaa", sans-serif;
+	font-size: 20px;
+}
